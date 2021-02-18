@@ -79,6 +79,7 @@ const Input = styled.input`
   text-align: center;
   border-bottom: 3px solid rgb(46,41,37);
   margin-top: 4px;
+  border-radius: 0px;
 `;
 
 const Close = styled.button`
