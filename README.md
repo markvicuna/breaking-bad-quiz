@@ -1,4 +1,4 @@
-![Who Said That: Breaking Bad Edition](img/slogan.png?raw=true)
+![Who Said That: Breaking Bad Edition](img/logo.png?raw=true)
 
 #### Who Said That?!?! A quotes quiz for hardcore fans of Breaking Bad!
 
