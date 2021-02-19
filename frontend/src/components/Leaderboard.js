@@ -12,7 +12,7 @@ const Leaderboard = ({
     <Modal>
       <Board>
         <Close onClick={hideLeaderboard} className="fas fa-times-circle" />
-        <Title>High Scores</Title>
+        <Title>Top 10</Title>
         <Table>
           <Label>
             <tr>
