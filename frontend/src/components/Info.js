@@ -5,13 +5,13 @@ const Info = () => {
   return (
     <div>
       <IconGroup>
-        <a href="https://github.com/markvicuna/" target="_blank">
+        <a href="https://github.com/markvicuna/" target="_blank" rel="noopener noreferrer">
           <Icon className="fab fa-github"></Icon>
         </a>
-        <a href="https://www.instagram.com/modernratio/" target="_blank">
+        <a href="https://www.instagram.com/modernratio/" target="_blank" rel="noopener noreferrer">
           <Icon className="fab fa-instagram"></Icon>
         </a>
-        <a href="https://open.spotify.com/track/6gaPfdDfLQucC6nAzD65BC" target="_blank">
+        <a href="https://open.spotify.com/track/6gaPfdDfLQucC6nAzD65BC" target="_blank" rel="noopener noreferrer">
           <Icon className="fab fa-spotify"></Icon>
         </a>
       </IconGroup>
@@ -24,23 +24,25 @@ const Info = () => {
 // Styles
 
 const IconGroup = styled.div`
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 `;
 
 const Icon = styled.i`
-  font-size: 30px;
-  margin: 0 4px;
+  font-size: 34px;
+  margin: 0 10px;
 `;
 
 const Credit = styled.div`
   font-family: 'Bangers', sans-serif;
-  font-size: 21px;
+  font-size: 24px;
+  margin-bottom: 2px;
 `;
 
 const Note = styled.div`
   line-height: 1;
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: 1px;
+  margin-bottom: 2px;
 `;
 
 const Underline = styled.a`

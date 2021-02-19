@@ -15,7 +15,7 @@ const ScoreForm = ({
         <Form onSubmit={submitForm}>
         <Close onClick={cancelSubmit} className="fas fa-times-circle" />
           <Title>New high score:</Title>
-          <Subtitle>{score} points!</Subtitle>
+          <Subtitle>{score} point{score !== 1 && `s`}!</Subtitle>
           <Gif src={highScore}></Gif>
           <Subtitle>Enter your intials:</Subtitle>
           <Input value={name} maxLength="3" onChange={handleNameChange} />

@@ -29,14 +29,14 @@ const QuestionCard = ({
 // Styles
 
 const Question = styled.div`
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 22px;
+  margin-bottom: 15px;
   line-height: 1;
 `;
 
 const Score = styled.div`
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 22px;
+  margin-top: 15px;
 `;
 
 const AnswerGroup = styled.div`

@@ -45,8 +45,8 @@ const spin = keyframes`
 `;
 
 const Image = styled.img`
-  width: 100%;
-  max-width: 500px;
+  width: 90%;
+  max-width: 600px;
   margin-bottom: 20px;
 
   /* -webkit-animation: image-spin 5000ms infinite;

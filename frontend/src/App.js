@@ -147,7 +147,7 @@ const App = () => {
 
       <GlobalStyle />
 
-      <Header>
+      <Header onClick={goHome}>
         <Title>WHO SAID THAT?!</Title>
         <Subtitle>Breaking Bad Edition</Subtitle>
       </Header>
@@ -222,6 +222,7 @@ const Container = styled.div`
 
 const Header = styled.header`
   margin-bottom: 20px;
+  cursor: pointer;
 `;
 
 const Main = styled.main`
@@ -233,7 +234,7 @@ const Main = styled.main`
 `;
 
 const Title = styled.h1`
-  font-size: 42px;
+  font-size: 44px;
   line-height: 1;
   font-family: 'Bangers', sans-serif;
 `;
@@ -254,7 +255,8 @@ const spin = keyframes`
 `;
 
 const Loader = styled.img`
-  height: 200px;
+  width: 40%;
+  max-width: 200px;
 
   -webkit-animation: ${spin} 1000ms infinite;
   -moz-animation: ${spin} 1000ms infinite;
@@ -267,7 +269,7 @@ const Loader = styled.img`
 `;
 
 const Footer = styled.footer`
-  margin-top: 30px;
+  margin-top: 20px;
 `;
 
 export default App;
