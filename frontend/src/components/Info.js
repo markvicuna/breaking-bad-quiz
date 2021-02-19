@@ -16,7 +16,7 @@ const Info = () => {
         </a>
       </IconGroup>
       <Credit>Created by Mark Vicuña</Credit>
-      <Note>Using the <Underline href="https://breakingbadapi.com/">Breaking Bad API</Underline></Note>
+      <Note>Using the <Underline href="https://breakingbadapi.com/" target="_blank" rel="noopener noreferrer">Breaking Bad API</Underline></Note>
     </div>
   )
 }
