@@ -10,4 +10,4 @@ This project is a full-stack single page application created using the MERN stac
 
 The app was styled using [Styled Components](https://nameless-river-21316.herokuapp.com/) 💅🏾
 
-### [Click here](https://nameless-river-21316.herokuapp.com/) to play!.
+### [Click here](https://nameless-river-21316.herokuapp.com/) to play!
